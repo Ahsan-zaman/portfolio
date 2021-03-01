@@ -6,9 +6,13 @@
 * {
   box-sizing: border-box;
 }
-p,h1,h2,h3,h4,span,a{
-  margin: 0% !important;
-  padding: 0% !important;
+p,h1,h2,h3,h4,span,a,ul{
+  margin: 0% ;
+  padding: 0% ;
+  list-style: inside;
+}
+ul{
+    margin: 10px 0px;
 }
 html {
   scroll-behavior: smooth;
@@ -222,25 +226,40 @@ section {
   border-radius: 5px;
   padding: 15px;
 }
+.aboutmetext a{
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: larger;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  border: 2px solid var(--bg-color);
+}
+.aboutmetext a:hover{
+    background-color: transparent;
+    color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+}
 .aboutmetext h1 {
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   font-size: 250%;
   line-height: 50px;
   color: var(--bg-color);
 }
 .aboutmetext h3 {
-  text-align: center;
+  /* text-align: center; */
   color: var(--bg-color);
-  letter-spacing: 5px;
+  text-transform: uppercase;
+  word-spacing: 4px;
   font-weight: 200;
   margin-bottom: 20px !important;
-  white-space: nowrap;
 }
 h1 .typed {
   font-size: 95%;
   min-height: 50px !important;
-  white-space: nowrap;
 }
 .typed-cursor {
   display: none;
@@ -249,8 +268,6 @@ h1 .typed {
   font-size: 18px;
   color: #fff;
   width: 400px;
-  text-align: center;
-  margin: 0 auto !important;
 }
 .aboutmetext .para {
   margin-top: 10px !important;
@@ -473,7 +490,6 @@ h1 .typed {
   text-transform: uppercase;
   font-size: 190%;
   letter-spacing: 0.05em;
-  white-space: nowrap;
 }
 #form .field label {
   display: flex;
@@ -551,9 +567,8 @@ footer {
   .aboutmetext #name {
     font-size: 200%;
   }
-  .aboutmetext .sub {
-    letter-spacing: 2px;                          
-  }
+  /* .aboutmetext .sub {
+  } */
   .aboutmetext p {
     width: auto;
     padding: 0 5px;
