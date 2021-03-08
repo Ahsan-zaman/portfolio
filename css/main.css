@@ -297,6 +297,7 @@ h1 .typed {
   -webkit-clip-path: polygon(0 69%, 0 0, 69% 0, 91% 9%, 100% 25%, 100% 100%, 35% 100%, 9% 91%);
   clip-path: polygon(0 69%, 0 0, 69% 0, 91% 9%, 100% 25%, 100% 100%, 35% 100%, 9% 91%);
   border-bottom: var(--bg-color) 5px solid;
+  overflow-x: hidden;
 }
 #head {
   min-width: 40vw;
