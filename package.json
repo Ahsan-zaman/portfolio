@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "jquery": "^3.6.0",
+    "swiper": "^6.5.0"
+  },
+  "name": "ahsan",
+  "description": "My portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prod": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahsan-zaman/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahsan-zaman/portfolio/issues"
+  },
+  "homepage": "https://github.com/Ahsan-zaman/portfolio#readme"
+}
